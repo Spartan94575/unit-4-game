@@ -1,42 +1,43 @@
-/*font-family: 'Alfa Slab One', cursive;
-font-family: 'Ek Mukta', sans-serif;*/
-
-/* Backgrounds */
 body {
-	background-image: url("../images/background.jpg");
-}
+	background: url("../images/Crystal-Caves-Background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+  }
 
 .jumbotron {
-	background-color: #ffffff;
+	background: url("../images/Crystal-Caves-Background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 #gameSection, #scoreSection {
-	background-color: #ffffff;
-	margin-left: auto;
-	margin-right: auto;
+	background: url("../images/Crystal-Caves-Background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
-/*FOR TESTING*/
-/*#numberSection, #totalPoints {
-
-	background-color: orange;
-}*/
-
 #buttonSection {
-
-	/*background-color: yellow;*/
 	padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 25px;
 }
 
-/* Fonts */
 h1, h2, h3 {
-	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	font-weight: bold;
 }
 
 p {
-	font-family: 'Ek Mukta', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+	font-weight: bold;
 }
 
 .numberBox {
@@ -44,12 +45,11 @@ p {
 	margin: 0px;
 }
 
-/* images for buttons */
 .icons {
 	display: inline-block;
   	max-width: 100px;
   	max-height: 100px;
   	width: auto;
   	height: auto;
-  	margin:10px;
+	margin:10px; 
 }
